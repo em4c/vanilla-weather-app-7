@@ -85,6 +85,7 @@ currentLocationButton.addEventListener("click", getCurrentLocation);
 
 function displayFahrenheitTemperature(event) {
   event.preventDefault();
+  let fahrenheitTemperature = (14 * 9) / 5 + 32;
   alert("link clicked");
 }
 

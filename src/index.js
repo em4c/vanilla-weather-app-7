@@ -95,5 +95,7 @@ searchCity("New York");
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
-let windElement = document.querySelector("#wind");
-windElement.innerHTML = math.round(response.data.wind.speed);
+function displayWindElement {
+  let windElement = document.querySelector("#wind");
+  windElement.innerHTML = math.round(response.data.wind.speed);
+}
